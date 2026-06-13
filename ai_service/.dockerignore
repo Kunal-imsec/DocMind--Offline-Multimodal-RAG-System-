@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.cache/
+.local/
+models/
+*.onnx
+*.pt
+*.bin
+*.pdf
+``

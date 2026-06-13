@@ -1,0 +1,29 @@
+/ai-venv
+# Python
+__pycache__/
+*.pyc
+*:Zone.Identifier
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# Uploads
+uploads/
+ai_service/uploads/
+
+# Offline models (too large for git)
+offline-models/
+ai_service/app/offline-models/
+ai_service/app/offline_models/
+
+# Docker
+*.log
+*.pid
+
+# ENV
+.env
+/ai-venv
+# Temporary
+*.tmp
+*.DS_Store

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Environment files
+*.env
+.env.*
+
+# Model files (GGUF, checkpoints, embeddings)
+models/
+*.gguf
+*.bin
+*.pt
+*.pth
+
+# Vector store (FAISS)
+vector_store/*.index
+vector_store/*.faiss
+vector_store/*.hnsw
+vector_store/*.*_
